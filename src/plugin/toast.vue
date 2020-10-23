@@ -10,7 +10,6 @@
   </div>
 </template>
 <script>
-// import func from '../../vue-temp/vue-editor-bridge'
 export default {
     name:'test',
     data(){

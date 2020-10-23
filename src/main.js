@@ -5,9 +5,10 @@ import App from './App'
 import router from './router'
 
 Vue.config.productionTip = false
-import { toast } from './plugin/test'
+import { toast, confirm } from './plugin/test'
 
 Vue.use(toast)
+Vue.use(confirm)
     /* eslint-disable no-new */
 new Vue({
     el: '#app',
